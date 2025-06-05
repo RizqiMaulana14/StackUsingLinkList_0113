@@ -95,6 +95,11 @@ int main(){
                 break;
             default:
                 cout << "Invalid Choice. Try Again." << endl;
+                break;
         }
+
+        cout << endl;
     }
+
+    return 0;
 }
