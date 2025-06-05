@@ -15,10 +15,10 @@ class Node{
 //STACK CLASS
 class Stack{
     private:
-        Node *top; 
+        Node *top; //Pointer to the top node of the stack
 
     public:
         Stack(){
-            top = NULL; 
+            top = NULL; //Initialize the stack with a null top pointer
         }
 };
