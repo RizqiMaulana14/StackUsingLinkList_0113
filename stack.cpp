@@ -48,4 +48,10 @@ class Stack{
         }
 
         //Peek/Pop operation: Retrieve the value of the topmost element withoit removing it
+        void peek(){
+            if(isEmpty()){
+                cout << "List Is Empty." << endl;
+                return; //If the stack is empty, print a message and return
+            }
+        }
 };
