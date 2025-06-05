@@ -87,6 +87,9 @@ int main(){
             case 2:
                 stack.pop(); //Pop the topmost element from the stack
                 break;
+            case 3:
+                stack.peek();
+                break;
         }
     }
 }
