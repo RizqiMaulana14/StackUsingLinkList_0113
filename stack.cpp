@@ -69,4 +69,13 @@ int main(){
 
     int choice = 0;
     int value;
+
+    while(choice !=6){
+        cout << "1. Push\n";
+        cout << "2. Pop\n";
+        cout << "3. Peek\n";
+        cout << "4. Exit\n";
+        cout << "Enter Your Choice: \n";
+        cin >> choice;
+    }
 }
