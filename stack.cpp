@@ -43,7 +43,7 @@ class Stack{
                 cout << "Stack Is Empty." << endl;
                 return; //If the stack is empty, print a message and return
             }
-            cout << "Popped Value" << top->data << endl;
+            cout << "Popped Value " << top->data << endl;
             top = top->next; //Update the top pointer to the next node
         }
 
@@ -70,7 +70,7 @@ int main(){
     int choice = 0;
     int value;
 
-    while(choice !=6){
+    while(choice !=4){
         cout << "1. Push\n";
         cout << "2. Pop\n";
         cout << "3. Peek\n";
